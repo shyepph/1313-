@@ -1,0 +1,7 @@
+n = int(input("введите количество строк: "))
+list = []
+for _ in range(n):
+    strochki = input("введите строку: ")
+    for char in strochki:
+        list.extend(char)  # была ошибка с отступом
+print(list)
